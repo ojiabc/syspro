@@ -2,7 +2,7 @@
 #include<unistd.h>
 int main(){
 	int pid;
-	printf("[%d]프로세스 시작\n",getpid());
+	printf("[%d] Process start\n",getpid());
 	pid=fork();
-	printf("[%d]프로세스:리턴값 %d\n",getpid(),pid);
+	printf("[%d] Process : return value %d\n",getpid(),pid);
 }
